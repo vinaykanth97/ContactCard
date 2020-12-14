@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+.wrapper {
+  max-width: 70%;
+  margin: 0 auto;
+  display: flex;
+}
+.users {
+  padding: 20px;
+  cursor: pointer;
+  border: 1px solid rgb(31, 30, 30);
+}
+.users.active {
+  background: rgb(45, 45, 204);
+  color: #ffffff;
+}
