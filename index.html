@@ -9,15 +9,30 @@
   <body>
     <div class="model">
       <form class="add-contact">
-        <input type="number" class="age form-field" placeholder="Age" />
-        <input type="text" class="name form-field" placeholder="Name" />
-        <input type="text" class="email form-field" placeholder="Email" />
-        <select class="Gender">
-          <option value="male">Male</option>
+        <input
+          type="number"
+          class="age form-field"
+          placeholder="Age"
+          required
+        />
+        <input
+          type="text"
+          class="name form-field"
+          placeholder="Name"
+          required
+        />
+        <input
+          type="text"
+          class="email form-field"
+          placeholder="Email"
+          required
+        />
+        <select class="gender">
+          <option value="male" selected>Male</option>
           <option value="male">Female</option>
         </select>
         <select class="active-state">
-          <option value="active">Active</option>
+          <option value="active" selected>Active</option>
           <option value="inactive">Inactive</option>
         </select>
         <input type="submit" value="Add new Contact" />
